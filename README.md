@@ -17,7 +17,7 @@ or
 
 ### BSD ls
 ```
-LSCOLORS='exfxcxdxbxegedabagacad'
+LSCOLORS='exgxdadacxdadaHbadhehc'
 export LSCOLORS
 CLICOLOR=yes
 export CLICOLOR

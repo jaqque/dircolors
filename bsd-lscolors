@@ -1,0 +1,57 @@
+# ex	1.   directory
+# gx	2.   symbolic link
+# da	3.   socket
+# da	4.   pipe
+# cx	5.   executable
+# da	6.   block special
+# da	7.   character special
+# Hb	8.   executable with setuid bit set
+# ad	9.   executable with setgid bit set
+# he	10.  directory writable to others, with sticky bit
+# hc	11.  directory writable to others, without sticky bit
+
+
+LSCOLORS=exgxdadacxdadaHbadhehc
+export LSCOLORS
+
+# mkdir common; for i in A a C D E G h H b B d c e g F; do echo -n "$i: "; LSCOLORS="${i}x" ls -d common; done; rmdir common
+
+# lscolors
+#  ANSI
+#  |  LSCOLOR
+#  | /  Solarized
+#  | | /
+#  0 a base02
+#  1 b red
+#  2 c green
+#  3 d yellow
+#  4 e blue
+#  5 f magenta
+#  6 g cyan
+#  7 h base2
+#  8 A base03
+#  9 B orange
+# 10 C base01
+# 11 D base00
+# 12 E base0
+# 13 F violet
+# 14 G base1
+# 15 H base3
+# 
+# 
+# DARK
+# A base03   background
+# a base02   hilight background
+# 
+# C base01 lowlight foreground
+# E base0  default foreground
+# G base1  highlight foreground
+# 
+# LIGHT
+# 
+# H base3  bg
+# h base2  hibg
+# 
+# G base1  lofg
+# D base00 fg
+# C base01 hifg
