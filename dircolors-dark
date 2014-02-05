@@ -212,3 +212,23 @@ EXEC 32
 .oga 01;31
 .spx 01;31
 .xspf 01;31
+
+# Unimportant files
+.log 01;32
+*~ 01;32
+*-OLD 01;32
+*-ORIG 01;32
+.bak 01;32
+.BAK 01;32
+.old 01;32
+.OLD 01;32
+.org_archive 01;32
+.off 01;32
+.OFF 01;32
+.dist 01;32
+.DIST 01;32
+.orig 01;32
+.ORIG 01;32
+.swp 01;32
+.swo 01;32
+*,v 01;32
