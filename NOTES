@@ -1,0 +1,31 @@
+Solarized:
+
+  30 base02
+  31 red
+  32 green
+  33 yellow
+  34 blue
+  35 magenta
+  36 cyan
+  37 base2
+  01;30 base03
+  01;31 orange
+  01;32 base01
+  01;33 base00
+  01;34 base0
+  01;35 violet
+  01;36 base1
+  01;37 base3
+
+background:
+	DARK		LIGHT
+	40		47
+
+foreground:
+
+	DARK		LIGHT
+emph.	01;36		01;32
+normal	00		00
+comment	01;32		01;36
+	01;32		01;36
+
